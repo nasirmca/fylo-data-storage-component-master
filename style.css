@@ -1,0 +1,162 @@
+.container-fluid{
+    
+    height: 100vh;
+    background-color:  hsl(229, 57%, 11%);
+    background-image: url("images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    background-position: bottom;
+    
+   
+
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    
+}
+
+.left{
+   
+    background-color:hsl(228, 56%, 26%);
+    border-top-right-radius: 155px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+   padding: 55px;
+   height: fit-content;
+   width: 450px;
+   float: right;
+
+}
+.logo{
+   
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.icons{
+   
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.document{
+    padding-top: 8px;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 8px;
+   
+   
+}
+.folder{
+    padding-top: 8px;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 8px;
+   
+   
+}
+.uploade{
+    padding-top: 8px;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 8px;
+   
+   
+}
+
+.right{
+    background-color:hsl(228, 56%, 26%);
+    border-radius: 12px;
+   color: white;
+   padding: 55px;
+   height: fit-content;
+   width: auto;
+   float: left;
+   width: 70%;
+}
+
+.doc {
+    margin-top: 45px;
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+    padding: 5px;
+    width: 70%;
+    border-radius: 10px;
+  
+  }
+
+  .value{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .zero{
+    float: left;
+  }
+
+  .thousent{
+    float: right !important;
+   
+  }
+
+
+  h6{
+    font-family: 'Raleway', sans-serif;
+
+  }
+
+.notification{
+  position: absolute;
+ 
+  background-color: rgb(255, 255, 255);
+  width: 140px;
+  height: 80px;
+  padding: 12px;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  margin-top: -90px;
+  margin-left: 262px;
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+  .right {
+    width: 100%;
+    margin-top: -182px;
+    margin-left: 0px;
+  }
+  .notification{
+    margin-left: 55px;
+    margin-top: 108px;
+  }
+  .left{
+    margin-left: 145px;
+  }
+}
